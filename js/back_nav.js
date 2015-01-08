@@ -31,20 +31,20 @@ $(function (){
 
 	var navLists = new NavLists([
 		{
-			title: 'Objective',
-			link: '#objective'
+			title: 'Sample1',
+			link: '#sample1'
 		},
 		{
-			title: 'Activity',
-			link: '#activity'
+			title: 'Sample2',
+			link: '#sample2'
 		},
 		{
-			title: 'Groups',
-			link: '#groups'
+			title: 'Sample3',
+			link: '#sample3'
 		},
 		{
-			title: 'About',
-			link: '#about'
+			title: 'Sample4',
+			link: '#sample4'
 		}
 	]);
 
@@ -59,25 +59,25 @@ $(function (){
 	var Router = Backbone.Router.extend({
 		routes: {
 			'main': 'showMain',
-			'objective': 'showObjective',//route: method
-			'activity': 'showActivity',
-			'groups': 'showGroups',
-			'about': 'showAbout'
+			'sample1': 'showSample1',//route: method
+			'sample2': 'showSample2',
+			'sample3': 'showSample3',
+			'sample4': 'showSample4'
 		},
 		showMain: function() {
 			$('article').html('main');
 		},
-		showObjective: function() {
-			$('article').html('objective');
+		showSample1: function() {
+			$('article').html('sample1');
 		},
-		showActivity: function() {
-			$('article').html('activity');
+		showSample2: function() {
+			$('article').html('sample2');
 		},
-		showGroups: function() {
-			$('article').html('groups');
+		showSample3: function() {
+			$('article').html('sample3');
 		},
-		showAbout: function() {
-			$('article').html('about');
+		showSample4: function() {
+			$('article').html('sample4');
 		}
 	});
 	var router = new Router();

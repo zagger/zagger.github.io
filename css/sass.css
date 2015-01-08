@@ -13,7 +13,6 @@ header {
   height: 100px;
   line-height: 60px; }
   header a {
-    font-family: Raleway-Thin;
     margin: 0 auto; }
 
 nav {
@@ -22,7 +21,6 @@ nav {
   flex-direction: row;
   justify-content: space-around; }
   nav div {
-    font-family: Raleway-Regular;
     font-size: 1.2em;
     transition-duration: 0.7s;
     -webkit-animation-name: anime1;
@@ -52,12 +50,15 @@ a {
   height: 100%; }
 
 article {
+  padding-top: 1em;
   margin-left: 5%;
+  font-size: 5em;
   width: 80%;
   height: 610px;
   float: left;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  text-align: center; }
 
 #right-side {
   width: 19%;

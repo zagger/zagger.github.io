@@ -27,7 +27,7 @@ header {
 	height: 100px;
 	line-height: 60px;
 	a {
-		font-family: $header-font;
+		//font-family: $header-font;
 		margin: 0 auto;
 	}
 }
@@ -39,7 +39,7 @@ nav {
 	justify-content: space-around;
 
 	div {
-		font-family: $nav-font;
+		//font-family: $nav-font;
 		font-size: 1.2em;
 		transition-duration: 0.7s;
 		-webkit-animation-name: anime1;
@@ -69,12 +69,15 @@ a {
 }
 
 article{
+	padding-top: 1em;
 	margin-left: 5%;
+	font-size: 5em;
 	width: 80%;
 	height: 610px;
 	float: left;
 	flex-direction: column;
 	justify-content: space-around;
+	text-align: center;
 }
 
 #right-side {
