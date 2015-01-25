@@ -58,7 +58,6 @@ function retSubmmit() {
 		appToLogs(appRound(count));
 		$("#logs").append( "<p>" + playerNum + "</p>" );
 		appToLogs(appGG(resJSON));
-		console.log(resJSON);
 
 		if(count+1 > maxCount) {
 			htmlToCount(appMessage({'message': 'ゲーム終了'}));
@@ -161,14 +160,6 @@ function appGG(json) {
 			$(id).append(v);
 		});
 	}
-}
-
-function get(json) {
-	// return function(func) {
-	// 	func(json);
-	// }
-	//$('#view').append( buttonHTML({'value': 'submmit', 'func': 'submmit'}) );
-	console.log(json.message);
 }
 
 function returnJSON(url, reqJSON) {
