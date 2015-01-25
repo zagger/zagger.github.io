@@ -41,7 +41,6 @@ function retSubmmit() {
 		// resJSON = returnJSON("https://jaxrs-sample.herokuapp.com/rest/json", genReqJSON(playerNum, randNum));
 		resJSON = returnJSON("https://secure-bastion-1626.herokuapp.com/rest/json", genReqJSON(playerNum, randNum));
 		// resJSON = {'great': 1, 'good': 1, 'isSame': false};
-		console.log(resJSON);
 
 		if(resJSON.valid == 'false') {
 			htmlToCount(appMessage(resJSON));
@@ -57,6 +56,7 @@ function retSubmmit() {
 		}
 
 		appToLogs(appRound(count));
+		$("#logs").append( "<p>" + playerNum + "</p>" );
 		appToLogs(appGG(resJSON));
 		console.log(resJSON);
 
