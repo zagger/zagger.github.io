@@ -57,6 +57,7 @@ function retSubmmit() {
 		}
 
 		appToLogs(appRound(count));
+		$("#logs").append( "<p>" + playerNum + "</p>" );
 		appToLogs(appGG(resJSON));
 		console.log(resJSON);
 
