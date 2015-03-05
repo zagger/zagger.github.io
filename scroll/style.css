@@ -1,0 +1,44 @@
+html, body, #main{
+	height: 100%;
+}
+
+body {
+	/* important */
+	margin: 0;
+}
+
+#main {
+	position: relative;
+}
+
+#header {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: MediumSeaGreen;
+}
+
+#head-1 {
+	height: 100%;
+	/* background-color: DarkRed; */
+	background-image: url("img/_5.jpg");
+
+	/* point */
+	background-attachment: fixed;
+}
+#content-1 {
+	height: 100%;
+	background-color: DarkSlateBlue;
+}
+
+
+#head-2 {
+	height: 100%;
+	background-image: url("img/aaa557c7eb7216b93186c2127c320e89.jpeg");
+	background-attachment: fixed;
+}
+#content-2 {
+	height: 100%;
+	background-color: DarkRed;
+}
+
