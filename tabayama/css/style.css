@@ -45,6 +45,7 @@ header>nav>a {
 
 article>nav {
 	display: flex;
+	display:-webkit-box;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
